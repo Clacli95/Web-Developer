@@ -9,37 +9,128 @@
     <link href="https://fonts.googleapis.com/css2?family=Prata&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
 </head>
+
 <body>
 <style>
-    body {
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    background-color: rgb(234, 82, 12);
+  }
+
+  body {
+    background-color: rgb(234, 82, 12);
+  }
+
+  .image-container {
+    height: 500px;
+    background-image: url('https://images.pexels.com/photos/355321/pexels-photo-355321.jpeg?auto=compress&cs=tinysrgb&w=1600');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+    
+  .main-section {
+    padding: 20px;
+    color: white;
+  }
+
+  h1 {
+    font-family: "Prata", serif;
+    font-weight: 400;
+    font-size: 64px;
+    margin-bottom: 0;
+    color: white;   
+  }
+
+  h3 {
+    font-family: "Prata", serif;
+    font-weight: 400;
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: white;
+  }
+
+  h6 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  #my-h6 {
+    text-align: left;
+    padding: 22px;
+    margin-bottom: 0px;
+    margin-top: 56px;
+    color: white;
+    border-radius: 10px;
+    background: linear-gradient(to right, orange, red );
+  }
+       
+  header {
+    font-family: "Prata", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;   
+  }
+
+    .list-style {
+        list-style: none;    
+        padding: 0;
         margin: 0;
-        background-image: url('https://images.pexels.com/photos/36182704/pexels-photo-36182704.jpeg?_gl=1*k1s3n1*_ga*MTM1OTQzNzk0Ni4xNzc0NjMzODI1*_ga_8JE65Q40S6*czE3NzQ2MzM4MjUkbzEkZzEkdDE3NzQ2MzM4MzMkajUyJGwwJGgw');
-        background-size: contain;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-attachment: scroll;
-        background-color: forestgreen;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        padding-left: 22px;
+        border: 1px solid  #dfdfdf
     }
 
-    .main-section {
-        padding: 20px;
-        color: white;
-    }
-       
-    header {
-        font-family: "Prata", serif;
-        font-weight: 400;
-        font-style: normal;
-        color: white;   
-    }
+footer {
+  background-color: black;
+  color: white;
+  padding: 16px;
+} 
+
 </style>
 
 
 <div class="main-section">
-    
+    <div class="image-container"></div>
+    <h6>Foto di 
+        <a href="https://www.pexels.com/photo/355321/" target="_blank" style="color: white; text-decoration: none;">Pexels</a> da Pexels</h6>
     <h1>Madagascar</h1>
-    <p><em>L'isola rossa dell'Oceano Indiano</em></p>
+    <h3>L'isola rossa dell'Oceano Indiano</h3>
 
+   
+    <h6 id= "my-h6">Luoghi correlati</h6>
+    <div class="list-style"> 
+
+    <ul>
+        <a href="https://www.viaggiomadagascar.it/altri-articoli/informazioni-sul-territorio/il-viale-dei-baobab/" target="_blank" style="color: white; text-decoration: none;">
+        Viale dei Baobab (Morondava)
+    </ul>
+    <ul>
+        Tsingy di Bemaraha (Parco Nazionale)
+       <a href="https://it.wikipedia.org/wiki/Riserva_naturale_integrale_Tsingy_di_Bemaraha" target="_blank" style="color: white; text-decoration: none;">
+    </ul>
+    <ul>
+        Foresta di Andasibe-Mantadia
+    <a href="https://it.wikipedia.org/wiki/Parco_nazionale_di_Andasibe-Mantadia" target="_blank" style="color: white; text-decoration: none;">  
+    </ul>   
+    <ul>Isola di Nosy Be
+    <a href="https://www.mokoro.it/alla-scoperta-di-nosy-be-un-angolo-magico-del-madagascar/" target="_blank" style="color: white; text-decoration: none;"> 
+    </ul>
+    <ul>Parco Nazionale di Ranomafana
+    <a href="https://madagascar-tourisme.com/it/la-destinazione/il-sud-est/parco-nazionale-di-ranomafana/" target="_blank" style="color: white; text-decoration: none;">
+    </ul>
+
+    </div>  
+         
     <main>
         <section>
             <h2>Introduzione</h2>
@@ -62,13 +153,15 @@
         <section>
             <h2>Link Utili</h2>
             <p>Per maggiori informazioni, visitare il sito ufficiale del turismo:</p>
-            <a href="https://madagascar-tourisme.com" target="_blank">Madagascar Tourisme</a>
+                <a href="https://madagascar-tourisme.com" style="color: aquamarine " target="_blank">Madagascar Tourisme</a>
         </section>
     </main>
 
-    <footer>
+   
+</div>
+ <footer>
         <p>&copy; 2023 Pagina informativa sul Madagascar</p>
     </footer>
-</div>
+</style>
 </body>
-</html>
+</html>  
