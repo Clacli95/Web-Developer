@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 span style="color:orange"> I miei gusti musicali</h1>
+    <p> Sono una persona che ama la musica e se anche tu sei qui perchè condividi i miei stessi gusti musicali, per favore poi completa il form così potrò mettermi in contatto con te e conoscerti. A me piace il rock, il pop, il jazz, il reggae, il reaggaeton, tutti i generi musicali latini. Devo amettere che amo la musica! Scopriamo insieme la nostra affinità musicale:  </p>
+<div>
+<ul> Rock 
+<input type="checkbox"/>
+</ul>
+<ul> Pop
+<input type="checkbox"/>    
+</ul>
+<ul> Jazz
+<input type="checkbox"/>
+</ul>
+<ul> Reggae
+<input type="checkbox"/>
+</ul>
+<ul> Reaggaeton
+<input type="checkbox"/>
+</ul>
+<ul> Musica latina
+<input type="checkbox"/>
+</ul>
+</div>
+<br>
+<h2 span style="color:red"> I miei dati personali:</h2>
+    <form onsubmit="alert ('form inviato')">
+    <div>
+    <input type="text" placeholder="Nome"/>
+    
+    </div>
+    <div>
+    <input type="text" placeholder="Cognome"/>
+   
+    </div>
+    <div>
+    <input type="email" placeholder="Email"/>
+
+    </div>
+    <div>
+    <input type="password" placeholder="Password"/>
+  
+    </div>
+    <div>
+    <text> Data di nascita:  </text>
+    <input type="date" placeholder="Data di nascita"/>
+   
+    </div>
+    <div>
+    <input type="number" placeholder="Numero di telefono"/>
+
+    </div>
+    <div>
+   <p>Accetti i termini e le condizioni?</p>
+  <input type="radio" id="si" name="scelta" value="si">
+  <label for="si">Sì</label><br>
+  <input type="radio" id="no" name="scelta" value="no" checked>
+  <label for="no">No</label>
+    </div>
+</form>
+    <button onclick="alert('Form inviato')">Invia</button>
+    </form>
+    </body>
+</html>
